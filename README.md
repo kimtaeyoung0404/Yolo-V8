@@ -7,6 +7,11 @@
 ""참고 링크 https://github.com/jetsonmom/yolov8_jetson4GB?tab=readme-ov-file   ,    https://cyb.tw/docs/Tech/2020/9/18_Install-anaconda-on-Jetson-Nano.html#install-archiconda ""
 ```
 sudo apt update
+
+
+
+
+
 sudo apt upgarde
 ```
 가장 먼저 업데이트 업그레이드를 한다.
@@ -131,11 +136,11 @@ Thank you for installing Archiconda3!
 
 ```
 conda env list
-conda activate base
+conda deactivate base
 jetson_release 
 ```
 
-이후 python3.8. 가상환경을 만들고 욜로 가상환경을 만들어 들어간다.
+이후 python3.8. 을 다음 명령어를 입력하여 가상환경을 만들고 욜로 가상환경을 만들어 들어간다.
 
 ```
 conda create -n yolo python=3.8 -y
@@ -144,8 +149,8 @@ conda env list
 ```
 conda activate yolo
 ```
+conda activate를 실행하면 yolo 가상환경에 진입하여 pytorch(오픈 소스 딥러닝 프레임워크로 주로 인공신경망을 구축 하는데 사용), tourchvision(이미지 관련 작업을 편리하게 해주는 것을 도와주는 것)을 설치하는 과정이다. 이를 다운로드 하는 과정이다.
 
-욜로 가상환경에 들어오면  (yolo)dli@dliL~$ 과 같이 나타날 것이다.
 
 ```
  pip install -U pip wheel gdown
