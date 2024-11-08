@@ -232,4 +232,10 @@ python detectY8.py
 
 detectY8.py에 들어가서 사진과 같은 코드를 찾아 수정하고 다시 실행하면 된다.
 
-작동 결과는 유튜브에서 확인 가능하다. https://youtu.be/HxUnThdKvtA?si=D56TcjKOtVIDa_Bg 
+작동 결과는 유튜브에서 확인 가능하다. 
+1. https://github.com/user-attachments/assets/5d3ba5b4-24d3-4013-98b2-c7a565ad4a56
+
+
+2. https://github.com/user-attachments/assets/0ccc0885-32f0-461e-80ab-2bc89316fc93
+
+
